@@ -1,0 +1,30 @@
+﻿body {
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+.body-content {
+    padding: 15px;
+    max-width: 384px;
+}
+
+.jumbotron {
+    text-align: center;
+}
+
+/* Override the default bootstrap behavior where horizontal description lists 
+   will truncate terms that are too long to fit in the left column 
+*/
+.dl-horizontal dt {
+    white-space: normal;
+}
+
+.form-center {
+    display: inline-block;
+}
+
+.jumbotron .form-control {
+    font-size: 16px;
+    padding: 10px;
+    height: auto;
+}

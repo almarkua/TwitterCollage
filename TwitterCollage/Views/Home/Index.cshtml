@@ -1,0 +1,13 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+    <form class="jumbotron form-horizontal" action="@Url.Action("RetweetedUsers")">
+        <h2>Create collage</h2>
+        <div class="form-group">
+            <input type="text" name="ScreenName" class="form-control" placeholder="Screen name"/>
+        </div>
+            
+        <div class="form-group">
+            <button type="submit"class="btn btn-lg btn-success btn-block">Create</button>
+        </div>
+    </form>
